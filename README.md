@@ -31,11 +31,22 @@ Mason's curated list of awesome Splunk projects and resources
 # Splunkbase Addons
 *Visualizations*
 
+*New Splunk Alert Actions*
+* [HTTP Alert Action](https://splunkbase.splunk.com/app/4585/) - Send HTTP(S) requests [GET|POST] with custom headers, method, etc. with an option to ingest response to index
+* [Syslog Mod Alert](https://splunkbase.splunk.com/app/4199/) - Send generic or CEF syslog events
+* [Alert Manager](https://splunkbase.splunk.com/app/2665/)
+* [Alert Schedule](https://splunkbase.splunk.com/app/3563/) - Create custom alert schedules using provided lookup files
+* [SSH Alert Actions (for Linux 64-bit)](https://splunkbase.splunk.com/app/4398/) - Send search results over SFTP or execute shell commands on remote systems via SSH.
+* [Sendresults](https://splunkbase.splunk.com/app/1794/) - Improved version of Splunk's email alert action that supports CSS, dynamic evaluation of email "to" and "subject" fields, multiple recipients, etc.
+
 *Apps for Splunk Admins*
 * [Lookup Editor](https://splunkbase.splunk.com/app/1724/) - Splunk Web App for Editing Lookup Files
 * [DB Connect](https://splunkbase.splunk.com/app/2686/) - Splunk App for interacting with databases
 * [Gemini KV Store Tools](https://splunkbase.splunk.com/app/3536/) - KV store backup/restore, delete key records, KV store alert action
-
+* [TA-SyncKVStore](https://splunkbase.splunk.com/app/3519/) - Automatic synchronization of KV stores between separate Splunk instances, index local/remote KV stores as JSON using modular inputs
+* [TrackMe](https://splunkbase.splunk.com/app/4621/) - Monitoring and alerting tool for availability of data sources within Splunk
+* [License Monitor for Splunk](https://splunkbase.splunk.com/app/3521/) - Get insights about your actual license usage of your splunk enviroment
+* [Unified Forwarder Monitoring App for Splunk](https://splunkbase.splunk.com/app/3805/) - Forwarder monitoring with metrics from DMC and DS combined
 *Security Apps*
 * [Security Essentials](https://splunkbase.splunk.com/app/3435/) - Splunk Security Essentials
 
